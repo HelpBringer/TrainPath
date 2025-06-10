@@ -26,10 +26,10 @@ The information found is pulled from the website https://rail.ninja/ wia using r
 ## Examples and Snapshots
 
 Parameters: Edinburgh London 2025-06-15 1
-Result: ![example1](images/example1.png)
+Result: ![example1](pics/example1.png)
 
 Parameters: Amsterdam Paris 2025-08-20 1
-Result: ![example2](images/example2.png)
+Result: ![example2](pics/example2.png)
 
 Parameters: sadasdas Paris 2025-08-20 1
-Result: ![example3](images/example3.png)
+Result: ![example3](pics/example3.png)
