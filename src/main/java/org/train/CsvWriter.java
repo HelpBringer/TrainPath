@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 public class CsvWriter {
-    final String DESCRIPTION_HEADER = "DEPART.STATION;ARRIVAL.STATION;DEPART.TIME;ARRIVAL.TIME;DURATION;PRICE, USD;COACH_TYPE;FARE_TYPE";
+    final String DESCRIPTION_HEADER = "DEPART.STATION;ARRIVAL.STATION;DEPART.TIME;ARRIVAL.TIME;DURATION, MIN;PRICE, USD;COACH_TYPE;FARE_TYPE";
 
     public void write(String csvPath, ArrayList<TrainPath> trains) {
         String filename;
