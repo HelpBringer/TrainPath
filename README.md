@@ -16,3 +16,20 @@ To compile project manually use:\
 *mvn clean package*\
 *java -jar target/PathNinja-1.0-SNAPSHOT.jar [your parameters]* from the same directory\
 In the root directory result.csv will be generated.
+
+## Extra Info
+
+The information found is pulled from the website https://rail.ninja/ wia using requests to the API endpoints. 2 calls to get IDs of cities the user had entered and the 1 post request to retrieve all required info.
+
+---
+
+## Examples and Snapshots
+
+Parameters: Edinburgh London 2025-06-15 1
+Result: ![example1](images/example1.png)
+
+Parameters: Amsterdam Paris 2025-08-20 1
+Result: ![example2](images/example2.png)
+
+Parameters: sadasdas Paris 2025-08-20 1
+Result: ![example3](images/example3.png)
